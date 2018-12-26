@@ -1,2 +1,64 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+html{
+  font-size: 16px}
+
+h1{
+  font-family: fantasy;
+}
+
+h2{
+  font-family: fantasy;
+}
+
+header{
+  border-width: thick;
+  border-style: groove;
+  border-color: green;
+}
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border-width: thick;
+  border-style: groove;
+  border-color: green;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+#advanced-selectors > ol > li > p {
+  padding: 0.05cm;
+  background-color: grey;
+}
+
+#advanced-selectors > ol > li:nth-child(2n-1) > p{
+  background-color: green;
+}
+
+[title~="Bitmaker"]:hover {
+  text-decoration: none;
+}
+
+article > ol > li > ul > li:hover {
+  background-color: yellow;
+  color: red;
+}
